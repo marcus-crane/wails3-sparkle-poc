@@ -2,6 +2,9 @@
 
 This repository contains a Hello World build of a [Wails 3](https://v3alpha.wails.io/) app, using the [Sparkle](https://github.com/sparkle-project/Sparkle) framework by way of [go-sparkle](https://github.com/abemedia/go-sparkle).
 
+
+https://github.com/user-attachments/assets/b0204772-2983-42bc-b750-43c066f8e684
+
 I've only tested this on macOS but the same effect should be achievable by way of [go-winsparkle](https://github.com/abemedia/go-winsparkle).
 
 The main point of this repo is to both provide an example and capture the exact steps required to achieve this, both for myself in future and for the wider Wails community.
@@ -373,7 +376,7 @@ $ curl http://localhost:8000/appcast.xml
 
 Finally, you can either open `bin/updater` (it will likely consider the update in `appcast.xml` newer than itself) or make a new version with a decremented version, spin it up and you should be able to update your app in place:
 
-<video src="https://cdn.utf9k.net/demos/updater3.mp4" controls></video>
+https://github.com/user-attachments/assets/b0204772-2983-42bc-b750-43c066f8e684
 
 ## Glossary
 
