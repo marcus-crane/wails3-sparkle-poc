@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="icon" type="image/svg+xml" href="/wails.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="/style.css"/>
+    <title>Wails App</title>
+  <script type="module" crossorigin src="/assets/index-B1VK9MbA.js"></script>
+</head>
+<body>
+<div class="container">
+    <div>
+        <a wml-openURL="https://wails.io">
+            <img src="/wails.png" class="logo" alt="Wails logo"/>
+        </a>
+        <a wml-openURL="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+            <img src="/javascript.svg" class="logo vanilla" alt="JavaScript logo"/>
+        </a>
+    </div>
+    <h1>Wails + Javascript</h1>
+    <p>Version 1.0.0</p>
+    <div class="card">
+        <div class="result" id="result">Click below to trigger updates</div>
+        <div class="input-box" id="input">
+            <input class="input" id="name" type="text" autocomplete="off"/>
+            <button class="btn" onclick="doGreet()">Greet</button>
+        </div>
+    </div>
+    <div class="footer">
+        <div><p>Click on the Wails logo to learn more</p></div>
+        <div><p id="time">Listening for Time event...</p></div>
+    </div>
+</div>
+</body>
+</html>

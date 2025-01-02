@@ -1,0 +1,7 @@
+keys used to sign sparkle updates
+obviously never publish these! provided for reproducability and deleted from my devices
+
+keychain access -> login keychain -> all items -> "Private key for signing Sparkle updates"
+
+private key: YXaQz/Pt0A+E3LbJ/A5ZqF4FCBNIriFJI89mgrj5Va0=
+public key:  wiI5O/SGcbX9VdcIN+hBXvV66KI3gpTTlHMelslKsg0=
